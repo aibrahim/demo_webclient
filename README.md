@@ -7,6 +7,7 @@ A [re-frame](https://github.com/day8/re-frame) application designed to ... well,
 ### Run application:
 
 ```
+npm install
 lein clean
 lein dev
 ```

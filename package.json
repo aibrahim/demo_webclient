@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "shadow-cljs": "2.8.80"
+  },
+  "dependencies": {
+    "buefy": "^0.8.9",
+    "create-react-class": "15.6.3",
+    "moment": "^2.24.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "sweetalert2": "9.5.4"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss resources/public/css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }
+}
